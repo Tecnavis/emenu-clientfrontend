@@ -1,0 +1,21 @@
+.logo-style{
+    width: 5rem;
+    height: 5rem;
+}
+.banner-style{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.bstyle{
+    background-color: #d88ee030;
+    border:none;
+    
+}
+.dets{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}

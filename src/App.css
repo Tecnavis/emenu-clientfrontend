@@ -1,0 +1,355 @@
+
+body{
+  font-family: "Montserrat", sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  overflow-x: hidden;
+}
+.add_btn{
+  position: fixed;
+  right: 2%;
+  top: 5%;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  color: green;
+}
+.montserrat-300 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-600 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.side-nav{
+  height: 100vh;
+  background-color:#9d8f9e30;
+  position: fixed;
+  left: 0;
+  display: block;
+  
+}
+.sn1section{
+  width: 100%;
+  height: 25%;
+
+}
+.logo{
+  width: 100%;
+    object-fit: contain;
+    aspect-ratio: 3 / 1.7;
+}
+.logo-sm{
+  width: 50%;
+    object-fit: contain;
+    aspect-ratio: 3 / 1.7;
+}
+
+.dishimg{
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 3/3;
+  height: 100%;
+}
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  object-fit: cover;
+}
+
+.item-text{
+  font-size: medium;
+}
+.banner-1{
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: grid;
+  place-items: center;
+}
+.banner-2{
+  background-image: url('./components/Images/banner\ 6.jpg');
+  background-size: cover;
+  height: 28rem;
+}
+.explore-btn{
+  width:30%; 
+  border-radius:10px;
+  background-color: #f2c0f8d3;
+  border: 1px solid rgb(181 29 113 / 23%);
+  padding:10px;
+  color:black;
+  font-weight: bold;
+  font-style: normal;
+  
+}
+.footer-logo{
+  width: 30%;
+  object-fit: cover;
+}
+
+.smallnav{
+  display: none;
+}
+.main-contenet{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.main-row{
+  width: 78%;
+  margin-bottom: 0px;
+}
+.item_div{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d88ee030;
+    border-radius: 32px;
+    border: 1px solid rgb(181 29 113 / 23%);
+}
+.avtar{
+  width: 20%;
+}
+.contents_items{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icons_items{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0px;
+}
+@media only screen and (max-width: 992px) {
+  .smallnav{
+    display: block;
+  }
+  .side-nav{
+    display: none;
+  }
+  .main-contenet{
+    justify-content: center;
+  }
+  .add_btn{
+    right: 2%;
+    top: unset;
+    bottom: 1%;
+  }
+  .main-row{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  body{
+   
+    background: rgb(255, 255, 255);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .avtar{
+    width: 33.3%;
+    height: 120px;
+  }
+  .contents_items{
+    width: 33.3%;
+    display: grid;
+    
+  }
+  .icons_items{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .avatar{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: none;
+    object-fit: cover;
+  }
+}
+/* .whole{
+  background-image: url("./components/Images/gold.jpg");
+} */
+.foots{
+  background-image: url("./components/Images/foots.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.p2{
+  background-image: url('./components/Images/b2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+}
+.gft {
+  position: relative;
+  background-image: url('./components/Images/7279.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center text horizontally */
+  
+}
+
+.overlay-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-texty {
+  padding: 20px; /* Adjust padding as needed */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: white;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Black transparent layer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 1.5em;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.image-container:hover .overlay-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+.Container{
+  margin:4rem;
+}
+
+.item-image {
+  width: 100%;
+  height: auto;
+  border: 1px solid #dacece;
+}
+
+.details {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.details h6, .details h2, .details h4 {
+  margin-bottom: 10px;
+}
+
+.weight {
+  border: 1px solid grey;
+  padding: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.btn-buy, .btn-talk-expert {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.btn-talk-expert {
+  background-color: #550055;
+}
+
+.divider {
+  margin: 20px 0;
+  border-bottom: 2px solid violet;
+}
+
+.features {
+  padding: 10px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.product-details {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .item-image {
+    width: 100%;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .features {
+    text-align: left;
+  }
+
+  .product-details {
+    text-align: center;
+  }
+}
